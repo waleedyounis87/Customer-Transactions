@@ -1,0 +1,21 @@
+/* src/app/components/customer-table/customer-table.component.css */
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .customer-table th, .customer-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .customer-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .customer-table tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
